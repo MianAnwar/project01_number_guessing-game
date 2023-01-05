@@ -1,0 +1,28 @@
+{
+  "name": "new-number-guessing-game",
+  "version": "1.0.0",
+  "description": "Number Guessing Game",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MianAnwar/project01_number_guessing-game"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.5.5",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3"
+  }
+}
